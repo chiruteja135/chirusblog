@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Akronim&family=Italianno&family=Monoton&family=Monsieur+La+Doulaise&display=swap");
+
+:root {
+  --main-color: purple;
+  --font1: "Akronim", cursive;
+  --font2: "Italianno", cursive;
+  --font3: "Monsieur La Doulaise", cursive;
+  --font4: "Monoton", cursive;
+}
+
+.font1{
+  font-family: var(--font1);
+}
+
+.font2{
+  font-family: var(--font2);
+}
+.font3{
+  font-family: var(--font3);
+}
+.font4{
+  font-family: var(--font4);
+}
+.maxwidth-1 {
+  max-width: 90vw;
+}
+.maxwidth-2 {
+  max-width: 80vw;
+}
+.maxwidth-3{
+  max-width: 65vw;
+}
+.m-auto {
+  margin: auto;
+}
+
+.btn1 {
+  font-size: small;
+  font-weight: 100;
+  border-radius: 6px;
+  cursor: pointer;
+  font: var(--font3);
+  text-decoration:none ;
+  list-style: none;
+}
+.btn1 a{
+  text-decoration:none ;
+
+}
+
+.btn a:hover {
+  background-color: var(--main-color);
+  /* font-size:medium; */
+  /* font-weight: bolder; */
+  color: white;
+}
+
+.input1 {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 2px;
+}
+
+.img1 {
+  width: 252px;
+  height: 235px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 150px;
+}
+
+.img2{
+  height: 125px;
+  width: 150px;
+  border-radius: 20px;
+  border: 2px solid black;
+  
+}
+
+h2,h3,h4,h5 {
+  margin-bottom: 1em;
+}
+
+#spl{
+  margin-top: 1em;
+  padding: 10px;
+}
+p{
+  font-size: larger;
+}
+

@@ -1,0 +1,25 @@
+.content {
+    display: flex;
+    height: 250px;
+    /* margin-top: 10px; */
+    padding: 5PX;
+    /* background-color: whitesmoke; */
+    /* justify-content: space-between; */
+    position: relativea;
+    /* overflow: hidden; */
+  }
+.content::after{
+    background-image: url(img-bg.jpg);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+    width: 81.5%;
+    height: inherit;
+    opacity: 0.25;
+  }
+
+.blog-post1{
+    background-color: whitesmoke;
+}

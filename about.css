@@ -1,0 +1,23 @@
+.content1 {
+    display: flex;
+    height: 250px;
+    /* margin-top: 10px; */
+    padding: 5PX;
+    /* background-color: whitesmoke; */
+    /* justify-content: space-between; */
+    position: relativea;
+    /* overflow: hidden; */
+  }
+  
+  .content1::after{
+    background-image: url(about.jpg);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+    width: 81.5%;
+    height: inherit;
+    opacity: 0.61;
+    border-radius: 5px;
+  }

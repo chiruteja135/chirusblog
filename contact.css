@@ -1,0 +1,61 @@
+.form-input{
+    width: 30rem;
+    padding: 0px;
+    margin: 9px;
+    height: 2rem;
+    background-color: rgb(255 235 253);
+    border-radius: 11px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    height: 450px;
+    padding: 5px;
+    /* position: relativea; */
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .contact::after{
+    background-image: url(img-contact3.jpg);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+    width: 81.5%;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+  }
+
+  .contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .btn2{
+    /* display: flex;   */
+    height: 2em;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 3px;
+  }
+  
+  .btn2:hover{
+    background-color: var(--main-color);
+    cursor: pointer;
+    color: white;
+    
+  }
+
+  #comments{
+    height: 6rem;
+  }
